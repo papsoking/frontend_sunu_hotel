@@ -1,0 +1,59 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100dvh;
+}
+
+/* Contenue de la page d'accueil */
+
+.home-content {
+  height: 100%;
+}
+
+/* Section SideBar */
+
+#sidebar {
+  height: 100%;
+  background-color: #918365 !important;
+  color: #ffffff !important;
+}
+
+.nav-link.link-body-emphasis {
+  color: #ffffff !important;
+  margin-bottom: 15px;
+}
+
+.nav-link.link-body-emphasis:hover {
+  background-color: #fff;
+  color: #cc9552 !important;
+  font-weight: bold;
+}
+
+.nav-link.active {
+  background-color: #ffffff !important;
+  color: #cc9552 !important;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.login-button {
+  background-color: #cc9552 !important;
+}
+
+/* Section avec les images et ... */
+
+.autres {
+    height: 100%;
+    width: 100%;
+}
+
+/* La barre de recherche */
+
+.search-input {
+    align-self: center !important;
+}
